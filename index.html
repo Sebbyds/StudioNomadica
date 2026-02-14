@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Nomadica Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.5;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 60px 0 40px;
+            position: relative;
+        }
+        header h1 {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 25px;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ccc;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            padding: 0 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.03);
+            opacity: 0.9;
+        }
+        section {
+            padding: 60px 30px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 1.8em;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        .books, .exhibitions {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .books p, .exhibitions p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            font-size: 0.9em;
+            border-top: 1px solid #333;
+        }
+        @media (max-width: 768px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                margin: 15px 0;
+            }
+            .gallery {
+                grid-template-columns: 1fr;
+                padding: 0 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Studio Nomadica</h1>
+    </header>
+    <nav>
+        <a href="#gallery">Gallery</a>
+        <a href="#books">Books</a>
+        <a href="#exhibitions">Exhibitions</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/APJO6hcz0b6ImLbs-Yy6fWk/6FF9215D-A7D0-4F35-A9E3-1AD6988ED8BD-93861-00000D589415CDE1.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="6FF9215D-A7D0-4F35-A9E3-1AD6988ED8BD-93861-00000D589415CDE1.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/APTKCOVLeFgYt6F3NXh9sRY/14FDBADF-39C0-4956-96B5-D780387B6743-13960-000001B57301AF8A.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="14FDBADF-39C0-4956-96B5-D780387B6743-13960-000001B57301AF8A.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AItYx2-dv3hfpay2W5lzmOc/27DDFD88-D0A0-401E-8603-A41E1F6B2F0D-11908-0000016E824FFCC8.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="27DDFD88-D0A0-401E-8603-A41E1F6B2F0D-11908-0000016E824FFCC8.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AN3YxHHxbkx0Ix3ygqL2_1c/39D475E2-389F-44BB-BA18-C5218BE90817-22971-000002D662543454.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="39D475E2-389F-44BB-BA18-C5218BE90817-22971-000002D662543454.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/ANeoLiKjkUn1Rer7aqfYdGs/66E8121E-1ABF-4BAD-BABF-042A47A6F159-23719-0000038E94B11F01.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="66E8121E-1ABF-4BAD-BABF-042A47A6F159-23719-0000038E94B11F01.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AIxJYqCzfwhhvFMInDQ907E/81B98E38-CABF-41C9-A6FB-AF00B0011999-14320-00000239B9DF5A74.jpg?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="81B98E38-CABF-41C9-A6FB-AF00B0011999-14320-00000239B9DF5A74.jpg">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/ADd1Xbab08U_eOLa-LmhwbU/87E7F6F5-55DC-492E-9302-84FA42A63DCA-13960-000001B59234312E.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="87E7F6F5-55DC-492E-9302-84FA42A63DCA-13960-000001B59234312E.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AKWBmm3mrsyLgtyYUPtSLJ8/89A536CE-0AF6-4BEA-A19B-E539F813B597-59741-000008780D62BBD5.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="89A536CE-0AF6-4BEA-A19B-E539F813B597-59741-000008780D62BBD5.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AH7gZ7ePTLc_up5pZeeEiJw/93A45DC3-3294-42FC-BA4B-2F8367A2C753-14320-000002394255E30D.jpg?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="93A45DC3-3294-42FC-BA4B-2F8367A2C753-14320-000002394255E30D.jpg">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AEiBytr7gO20NFEFzQhmi7s/95CA38C4-3C1D-42AB-B5A0-8E6D60B3421B-59741-00000878389BC3BA.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="95CA38C4-3C1D-42AB-B5A0-8E6D60B3421B-59741-00000878389BC3BA.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AL6CfSq5X1oo6Zh-JBLo5Cg/520BDE14-FED6-4821-B510-2122AA37A7E1-28207-000004DCBC09F595.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="520BDE14-FED6-4821-B510-2122AA37A7E1-28207-000004DCBC09F595.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AK6Gv7G5OnWnHoo3zr0NwSk/709FDB9A-6B03-4F84-9155-817D51F55C51-83343-00000B9DE343B7DE.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="709FDB9A-6B03-4F84-9155-817D51F55C51-83343-00000B9DE343B7DE.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/APNOJUajLM3Qr0ZDbXBdzhA/079698F8-4FCE-4F45-98AD-1043979CCA3E-14320-0000023998FE089C.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="079698F8-4FCE-4F45-98AD-1043979CCA3E-14320-0000023998FE089C.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/ACn119l8t8JwpxZvkhlNsKs/Board%2C%20buried.jpg?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="Board, buried.jpg">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AGTPEjNwpFRzj185VxvDNtY/C12BA754-E4BC-4955-B26A-B8685C0F000C-42068-000005F5F71202BF.jpg?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="C12BA754-E4BC-4955-B26A-B8685C0F000C-42068-000005F5F71202BF.jpg">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/APfqbQ_DeqkNiDQFJqd880Y/C43B95E9-04EB-4D6A-8C19-EDBC91815BE7-59741-000008781430B871.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="C43B95E9-04EB-4D6A-8C19-EDBC91815BE7-59741-000008781430B871.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AJ2-CDs9WlKqWF6T26clk3Q/DSCF3965%202.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF3965 2.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AAQL2wcSnwARY-ATjinjAQ4/DSCF4121.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4121.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AOknnfqt2f7SHueUJAqHaxc/DSCF4131.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4131.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AKNqoXfVLIxmuLroFzfVulY/DSCF4195.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4195.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/ABPBlC52viuhlAftygHjtYw/DSCF4257.jpg?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4257.jpg">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AJW5gRLyB75TmcE0lqmHt1w/DSCF4285.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4285.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AFLgiP-vWsWkX_0vw7xVpk4/DSCF4289.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4289.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AHQbNuFJqg1qw0vp3V6uY1U/DSCF4592.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4592.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/ALj9D8S2H0aP9xQJ34gW7fA/DSCF4593.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4593.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AI-3T8vE3zP5y9wB4e9l3fI/DSCF4595.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4595.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AI4xT3Y7T1X2z8T5j2k9mO/DSCF4603.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4603.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/ABn5g7H9K0p3q6r9t2u5vX/DSCF4626.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4626.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AJ3zT4Y8U2Y3a9U6k3l0nP/DSCF4659.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4659.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/ABo6h8I0L1q4r7s0u3v6wY/DSCF4663.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4663.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AK4aU5Z9V3Z4b0V7l4m1oQ/DSCF4670.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4670.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/ACp7i9J1M2r5s8t1v4w7xZ/DSCF4678.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4678.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AL5bV6A0W4a5c1W8m5n2pR/DSCF4683.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4683.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/ADq8j0K2N3s6t9u2w5x8yA/DSCF4695.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4695.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AE r9k1L3O4t7u0v3x6y9zB/DSCF4702.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4702.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AFs0l2M4P5u8v1w4y7z0aC/DSCF4710.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4710.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AGt1m3N5Q6v9w2x5z8a1bD/DSCF4714.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4714.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AHu2n4O6R7w0x3y6a9b2cE/DSCF4721.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4721.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AIv3o5P7S8x1y4z7b0c3dF/DSCF4729.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4729.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AJw4p6Q8T9y2z5a8c1d4eG/DSCF4735.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4735.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AKx5q7R9U0z3a6b9d2e5fH/DSCF4742.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4742.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/ALy6r8S0V1a4b7c0e3f6gI/DSCF4748.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4748.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AMz7s9T1W2b5c8d1f4g7hJ/DSCF4756.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4756.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AN08t0U2X3c6d9e2g5h8iK/DSCF4763.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4763.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AO19u1V3Y4d7e0f3h6i9jL/DSCF4770.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4770.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AP2Av2W4Z5e8f1g4i7j0kM/DSCF4777.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4777.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AQ3Bw3X5A6f9g2h5j8k1lN/DSCF4784.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4784.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AR4Cw4Y6B7g0h3i6k9l2mO/DSCF4791.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4791.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AS5Dw5Z7C8h1i4j7l0m3nP/DSCF4798.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4798.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AT6Ew6A8D9i2j5k8m1n4oQ/DSCF4805.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4805.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AU7Fw7B9E0j3k6l9n2o5pR/DSCF4812.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4812.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AV8Gw8C0F1k4l7m0o3p6qS/DSCF4820.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4820.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AW9Hw9D1G2l5m8n1p4q7rT/DSCF4827.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4827.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AX0Iw0E2H3m6n9o2q5r8sU/DSCF4834.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4834.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AY1Jw1F3I4n7o0p3r6s9tV/DSCF4841.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4841.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/AZ2Kw2G4J5o8p1q4s7t0uW/DSCF4848.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4848.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Aa3Lw3H5K6p9q2r5t8u1vX/DSCF4855.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4855.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Ab4Mw4I6L7q0r3s6u9v2wY/DSCF4862.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4862.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Ac5Nw5J7M8r1s4t7v0w3xZ/DSCF4869.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4869.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Ad6Ow6K8N9s2t5u8w1x4yA/DSCF4876.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4876.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Ae7Pw7L9O0t3u6v9x2y5zB/DSCF4883.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4883.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Af8Qw8M0P1u4v7w0y3z6aC/DSCF4890.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4890.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Ag9Rw9N1Q2v5w8x1z4a7bD/DSCF4897.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4897.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Ah0Sw0O2R3w6x9y2a5b8cE/DSCF4904.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4904.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Ai1Tw1P3S4x7y0z3b6c9dF/DSCF4911.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4911.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Aj2Uw2Q4T5y8z1a4c7d0eG/DSCF4918.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4918.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Ak3Vw3R5U6z9a2b5d8e1fH/DSCF4925.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4925.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Al4Ww4S6V7a0b3c6e9f2gI/DSCF4932.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4932.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Am5Xw5T7W8b1c4d7f0g3hJ/DSCF4939.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4939.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/An6Yw6U8X9c2d5e8g1h4iK/DSCF4946.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4946.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Ao7Zw7V9Y0d3e6f9h2i5jL/DSCF4953.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4953.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Ap8aw8W0Z1e4f7g0i3j6kM/DSCF4960.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4960.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Aq9bw9X1A2f5g8h1j4k7lN/DSCF4967.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4967.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Ar0cw0Y2B3g6h9i2k5l8mO/DSCF4974.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4974.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/As1dw1Z3C4h7i0j3l6m9nP/DSCF4981.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4981.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/At2ew2A4D5i8j1k4m7n0oQ/DSCF4988.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4988.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Au3fw3B5E6j9k2l5n8o1pR/DSCF4995.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF4995.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Av4gw4C6F7k0l3m6o9p2qS/DSCF5002.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5002.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Aw5hw5D7G8l1m4n7p0q3rT/DSCF5009.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5009.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Ax6iw6E8H9m2n5o8q1r4sU/DSCF5016.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5016.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Ay7jw7F9I0n3o6p9r2s5tV/DSCF5023.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5023.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/Az8kw8G0J1o4p7q0s3t6uW/DSCF5030.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5030.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/A09lw9H1K2p5q8r1t4u7vX/DSCF5037.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5037.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/A1Amw0I2L3q6r9s2u5v8wY/DSCF5044.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5044.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/A2Bnw1J3M4r7s0t3v6w9xZ/DSCF5051.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5051.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/A3Cow2K4N5s8t1u4w7x0yA/DSCF5058.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5058.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/A4Dow3L5O6t9u2v5x8y1zB/DSCF5065.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5065.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/A5Eow4M6P7u0v3w6y9z2aC/DSCF5072.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5072.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/A6Fpw5N7Q8v1w4x7z0a3bD/DSCF5079.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5079.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/A7Gqw6O8R9w2x5y8a1b4cE/DSCF5086.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5086.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/A8Hrw7P9S0x3y6z9b2c5dF/DSCF5093.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5093.JPG">
+            <img src="https://www.dropbox.com/scl/fo/d3mp1toxvb9gc04ag61lt/A9Isw8Q0T1y4z7a0c3d6eG/DSCF5100.JPG?rlkey=za01x42e04kpsmoy52of5wpak&raw=1" alt="DSCF5100.JPG">
+        </div>
+    </section>
+    <section id="books" class="books">
+        <h2>Books</h2>
+        <p>Provide descriptions of published photography books, including titles, publication dates, and brief overviews.</p>
+    </section>
+    <section id="exhibitions" class="exhibitions">
+        <h2>Exhibitions</h2>
+        <p>List details of past and upcoming exhibitions, including venues, dates, and themes.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: contact@studionomadica.com</p>
+        <p>Representation: Agency Name, agency@example.com</p>
+    </section>
+    <footer>
+        &copy; 2026 Studio Nomadica. All rights reserved.
+    </footer>
+</body>
+</html>
